@@ -462,7 +462,7 @@ const DATA = [
     title:"짜뚜짝 마켓 · 쏭왓 카페거리",
     segs:[
       {icon:"🛍️", label:"오전", text:"Chatuchak Weekend Market", sub:"라탄백·린넨의류·인센스 쇼핑 포인트"},
-      {icon:"🍜", label:"점심", text:"짜뚜짝 시장 내 길거리 음식", sub:"Viva 8 (빠에야) 추천"},
+      {icon:"🍜", label:"점심", text:"사판탁신/센터포인트 실롬 인근 점심", sub:"Prachak Roasted Duck 추천"},
       {icon:"☕", label:"15:00", text:"Song Wat Road → 카페", sub:"Hong Sieng Kong 추천"},
       {icon:"🍽️", label:"저녁", text:"쏭왓/차이나타운 인근 저녁", sub:"Krua Porn Lamai 추천"},
     ],
@@ -470,7 +470,7 @@ const DATA = [
     massage:null,
     mapUrl:"https://www.google.com/maps/dir/?api=1&origin=Holiday%20Inn%20Express%20%26%20Suites%20Bangkok%20Central%20Pier%2C%20Bangkok&destination=Song%20Wat%20Road%2C%20Bangkok&waypoints=Chatuchak%20Weekend%20Market%2C%20Bangkok",
     mapLabel:"오늘 경로 전체 보기",
-    recs:{restaurants:["쏭왓/탈랏노이", "차이나타운/야오와랏"], cafes:["쏭왓/탈랏노이"], desserts:["쏭왓/탈랏노이"], lunch:["짜뚜짝_점심"]}
+    recs:{restaurants:["쏭왓/탈랏노이", "차이나타운/야오와랏"], cafes:["쏭왓/탈랏노이"], desserts:["쏭왓/탈랏노이"], lunch:["사판탁신_점심"]}
   },
   {
     date:"8/17", dow:"월", area:"사판탁신",
@@ -583,12 +583,9 @@ const FOOD_DATA = {
   },
   "사판탁신_점심":{
     lunch:[
+      {name:"Prachak Roasted Duck (쁘라짝)", rating:4.4, price:"฿", desc:"100년 전통 오리고기 맛집, 센터포인트 실롬 바로 맞은편", url:"https://www.google.com/maps/search/?api=1&query=Prachak%20Roasted%20Duck%20Bangkok"},
+      {name:"Jok Prince", rating:4.4, price:"฿", desc:"미슐랭 빕구르망 돼지고기 죽, 센터포인트 실롬 도보 2분", url:"https://www.google.com/maps/search/?api=1&query=Jok%20Prince%20Bangkok"},
       {name:"Bamee Jubkang", rating:4.3, price:"฿", desc:"가성비 좋은 로컬 비빔국수 (왓 파크남 근처/야오와랏 인근)", url:"https://www.google.com/maps/search/?api=1&query=Bamee%20Jubkang%20Bangkok"},
-    ]
-  },
-  "짜뚜짝_점심":{
-    lunch:[
-      {name:"Viva 8", rating:4.4, price:"฿฿", desc:"짜뚜짝 시장 명물 빠에야와 시원한 맥주", url:"https://www.google.com/maps/search/?api=1&query=Viva%208%20Chatuchak%20Bangkok"},
     ]
   },
   "쏭왓/탈랏노이":{
